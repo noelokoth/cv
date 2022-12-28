@@ -4,102 +4,64 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Noel's Personal Site</title>
+  <title>Okoth Noel</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> -->
 </head>
 
-<body style="background-color: #EDEDED;">
-  <table cellspacing="20">
-    <tr>
-      <td><img src="images/Noel.png" alt="noel-pic"></td>
-      <td>
-        <h1>Micah O. Noel</h1>
-        <p>Founder and CTO of <strong> <a href="www.noelweb.com">Noel Web Ltd</a></strong>.</p>
-        <p>I am a web developer. I love coffee and beer.</p>
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <h3>Education</h3>
-  <ul>
-    <li>The Kenya Accountants and Secretaries National Examinations Board (KASNEB)</li>
-    <li>Homa Bay High School</li>
-    <li>Adhiro Primary School</li>
-  </ul>
-  <hr>
-  <h3>Work Experience</h3>
-  <table cellspacing="10">
-    <th>
-      <tr>
-        <th>Dates</th>
-        <th>Work</th>
-      </tr>
-    </th>
-    <tbody>
-      <tr>
-        <td>2021-2022</td>
-        <td>Territory Retention Executive: dlight solar</td>
-      </tr>
-      <tr>
-        <td>2019-2021</td>
-        <td>Clerk: Modern Mail Ltd</td>
-      </tr>
-      <tr>
-        <td>2017</td>
-        <td>Enumerator: Elizabeth Glaser Pediatric Foundation</td>
-      </tr>
-      <tr>
-        <td>2016</td>
-        <td>NAS Airport Services, JKIA</td>
-      </tr>
-      <tr>
-        <td>2014-2015</td>
-        <td>Team Leader: COSEKE (K) LTD</td>
-      </tr>
-    </tbody>
-  </table>
-<hr>
-  <h3>Skills</h3>
-  <table cellspacing="10">
-    <tr>
-      <td>
-        <td>HTML5</td>
-        <td>⭐⭐⭐⭐⭐⭐</td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <td>CSS3</td>
-        <td>⭐⭐⭐⭐⭐⭐</td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <td>Bootstrap4</td>
-        <td>⭐⭐⭐⭐⭐⭐</td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <td>DOM</td>
-        <td>⭐⭐⭐⭐⭐⭐</td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <td>JS6</td>
-        <td>⭐⭐⭐⭐⭐⭐</td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <td>jQuery</td>
-        <td>⭐⭐⭐⭐⭐⭐</td>
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <a href="hobbies.html">My Hobbies</a>
-  <a href="contact-me.html ">Contact Me</a>
+<body>
+
+  <div class="top-container" id="top">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+    <h1>I'm Noel</h1>
+    <p>a web designer.</p>
+    <img class="middle-cloud" src="images/cloud.png" alt="cloud-img">
+    <img class="bottom" src="images/mountain.png" alt="mountain-img">
+  </div>
+  <div class="middle-container">
+    <div class="profile" id="prof">
+      <img class="pic" src="images/noel2.jpg.jpg" alt="profile-img">
+      <h2>Hello</h2>
+      <p class="intro">I'm a web designer / developer based in Kenya, Africa. I have a passion for web design and love to create for web and mobile devices.</p>
+    </div>
+    <hr>
+    <div class="skills" id="skill">
+      <h2>What I can do.</h2>
+      <div class="skill-row">
+        <img class="skills-img" src="images/social-media.gif" alt="social-media.gif">
+        <h3>Design what you want.</h3>
+        <p>I like to keep it simple. My goals are to focus on typography, content and conveying the message that you want to send.</p>
+      </div>
+      <div class="skill-row">
+        <img class="skills2-image" src="images/laptop.gif" alt="laptop-gif" />
+        <h3>Develop what you need.</h3>
+        <p>I'm a developer, so I know how to create your website to run across devices using the latest technologies available.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>I can help.</h2>
+      <h3>I’m currently available for freelance work.</h3>
+      <p class="contact-message">If you have a project that you want to get started, think you need my help with something or just fancy saying hey, then get in touch.</p>
+      <a class="btn" href="mailto:okothnoel@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container" id="bottom">
+    <a class="footer-link" href="https://www.linkedin.com/in/micah-okoth-noel-657903ab//">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/noelmicah1">Twitter</a>
+    <a class="footer-link" href="mailto:okothnoel@gmail.com">hire me</a>
+    <p class="copy-right">© Okoth Noel @Noel Webit.</p>
+  </div>
+
 
 </body>
 
